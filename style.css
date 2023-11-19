@@ -1,0 +1,510 @@
+@media (min-width: 1400px) {
+    /* header section css */
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar{
+        display: flex;
+        position: sticky;
+
+        
+    }
+    .navbartitle{
+        margin-top: 15px;
+        margin-left: 20px;
+        font-weight: bolder;
+        font-size: 19px;
+    }
+    .navul{
+        display: flex;
+        margin-left: 280px;
+        margin-top: 15px;
+    }
+    .navli{
+        margin-left: 40px;
+    }
+    .navanchor{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    .navicons{
+        margin-left: 430px;
+        margin-top: 18px;
+    }
+    #user{
+        color: #8019c8;
+    }
+    #cart{
+        color: #8019c8;
+        margin-left: 10px;
+    }
+    /* header section css end */
+    /* slider css starts */
+    .slider{
+        background-image: url(slider-bg.jpg);
+        background-size: cover;
+    }
+    .slidercont{
+        padding: 50px;
+    }
+    .slidertitle{
+        margin-top: 40px;
+    }
+    .slidertitle1{
+       margin-top: 150px;
+       margin-left: 120px;
+       font-size: 35px;
+       color: white;
+       
+    }
+    .sliderdescript{
+        margin-top: 40px;
+    }
+    .sliderdescript1{
+        margin-left: 120px;
+        font-size: 25px;
+        color: white;
+    }
+    .buttons{
+        margin-top: 40px;
+    }
+    .contactbtn{
+        margin-left: 120px;
+        height: 48px;
+        width: 125px;
+        background-color: #19c880;
+        color: white;
+        border: none;
+    }
+    .aboutbtn{
+        margin-left: 10px;
+        height: 48px;
+        width: 125px;
+        background-color: #8019c8;
+        color: white;
+        border:none;
+    }
+    /* slider css end */
+    /* features css starts */
+    .pros{
+        display: flex;
+        text-align: center;
+        gap: 80px;
+        padding: 30px 30px;
+    }
+    .prosicon{
+        font-size: 40px;
+    }
+    .prostitle{
+        font-size: medium ;
+    }
+    .prosdescript{
+        font-size: medium;
+    }
+    .prosmain{
+        margin-left: 20px;
+    }
+    .prossect{
+        background-color: #f5f5f5;
+    }
+    /* feature css end */
+    /* about shop css starts */
+    .aboutshop{
+        display: flex;
+        gap: 90px;
+        padding: 90px;
+        padding-top: 100px;
+    }
+    .shop1{
+        width: 23%;
+        background-color: #f5f5f5;
+        margin-left: 50px;
+        height: 200px;
+    }
+    .shop2{
+        background-color: #f5f5f5;
+        width: 23%;
+        height: 200px;
+    }
+    .shop3{
+        width: 33%;
+        margin-top: 150px;
+    }
+    .image{
+        width: 100%;
+        transform: translateY(-75px);
+    }
+    .image1{
+        width: 100%;
+        transform: translateY(75px);
+    }
+    .abouttitle{
+        font-size: 35px;
+    }
+    .aboutdescript{
+        font-size: medium;
+        margin-top: 30px;
+    }
+    .readbtn{
+        height: 38px;
+        width: 155px;
+        margin-top: 30px;
+        color: white;
+        background-color: #8019c8;
+        border: none;
+        border-radius: 5px;
+    }
+    /* about shop css ends */
+    /* products css starts */
+    .products{
+        background-color: #f5f5f5;
+    }
+    .products2{
+        background-color: #f5f5f5;
+        margin-top: 40px;
+    }
+    .products3{
+        background-color: #f5f5f5;
+        margin-top: 40px;
+    }
+    .productcontainer{
+        display: flex;
+        gap: 50px;
+        
+    }
+    .producttitle{
+        width: 15%;
+        margin-left:150px;
+        text-align: center;
+        padding: 10px;
+        background-color: #19c880;
+        color: white;
+    }
+    .productmain{
+        width: 20%;
+        margin-left: 30px;
+        padding: 50px;
+        background-color: white;
+    }
+    
+    .w1{
+        margin-left: 30px;
+    }
+    .productdetail{
+        display: flex;
+    }
+    .price{
+        text-align: left;
+       
+    }
+    .likes{
+        text-align: right;
+        margin-left: 55px;
+        
+    }
+    #stars{
+        color: gold;
+    }
+    .buybtns{
+        display: flex;
+    }
+    .addcart{
+        margin-left: 150px;
+        height: 48px;
+        width: 155px;
+        border: none;
+        background-color: #8019c8;
+        color: white;
+        border-radius: 5px;
+    }
+    .addcart1{
+        margin-left: 320px;
+        height: 48px;
+        width: 155px;
+        border: none;
+        background-color: #8019c8;
+        color: white;
+        border-radius: 5px;
+    }
+    .addcart2{
+        margin-left: 300px;
+        height: 48px;
+        width: 155px;
+        border: none;
+        background-color: #8019c8;
+        color: white;
+        border-radius:5px ;
+    }
+    
+    /* product css ends */
+    /* contact form starts */
+    .contactform{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .contacttitle{
+        font-size: xx-large;
+        margin-bottom: 30px;
+    }
+    .name{
+        padding: 10px;
+        width: 455px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+    }
+    .number{
+        padding: 10px;
+        width: 455px;
+        margin-top: 2px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+    }
+    .email{
+        padding: 10px;
+        width: 455px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+    }
+    #Mess{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+    }
+    .sendbtn{
+        margin-top: 30px;
+        height: 48px;
+        width: 155px;
+        background-color: #8019c8;
+        color: white;
+        border: none;
+        border-radius:5px ;
+    }
+    /* contact form css ends */
+    /* testimonial css starts */
+    .testibox{
+        display: flex;
+    }
+     .Testimonial{
+        font-size: 50px;
+        margin-right: 10px;
+    }
+    .tcont{
+        margin-bottom: 150px;
+        margin-left: 50px;
+    }
+     .testit{
+        text-align: center;
+        padding: 50px;
+    }
+     .imgbox{
+        border-radius: 50px;
+        margin-left: 100px;
+        margin-top: 30px;
+        z-index: 1;
+    }
+     .testimg{
+        border-radius:100% ;
+        height: 200px;
+        width: 200px;
+        border: 5px solid #19c880;
+        position: relative;
+        margin-left: -100px ;
+        margin-bottom: -30px ;
+    }
+     .detailsbox{
+        position: absolute;
+        margin-left: 150px;
+        margin-top: -20px;
+        height: 200px;
+        width: 900px;
+        padding:60px ;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #double{
+        margin-left: 400px;
+        height: 30px;
+        width: 30px;
+        font-size: larger;
+        color: #8019c8;
+    }
+    .quote{
+        height: 30px;
+        width: 30px;
+    }
+     .cname{
+        font-size: 50px;
+        color: #8019c8;
+    }
+     .ccust{
+        font-size: 40px;
+        color: #19c880;
+    }
+     .client{
+        margin-left: 110px;
+        display: flex;
+    }
+     .client-de{
+        margin-left: 110px;
+        margin-top:30px ;
+    }
+     .ccust1{
+        font-size: small;
+    }
+    /* testimonial css ends */
+
+    /* footer css starts */
+    .fbox{
+        width: 100%;
+    }
+     .hbox{
+        width: 60%;
+        margin: auto;
+        border-bottom:1px solid white ;
+        padding: 30px; 
+        text-align: center;
+        font-size: xx-large;  
+    }
+     .fc{
+        display: flex;
+    }
+     .cc{
+        
+        width: 25%;
+        line-height: 90px;
+    }
+     .cc1{
+     
+        width: 25%;
+    }.cc2{
+        width: 25%;
+    }.cc3{
+        width: 25%;
+    }
+     #location1{
+        display: inline;
+        font-size: 35px;
+        margin-top: 40px;
+    }
+     .t1{
+        font-size: 40px;
+        
+    }
+     .lt{
+        display: inline;
+        font-size: 35px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+     #phone1{
+        display: inline;
+        font-size: 35px;
+        margin-top: 40px;
+    }
+     .pt{
+        display: inline;
+        font-size: 35px;
+        margin-left: 40px;
+        margin-top: 40px;
+        
+    }
+     #mail1{
+        display: inline;
+        font-size: 35px;
+        margin-top: 40px;
+    }
+     .mt{
+        display: inline;
+        font-size: 35px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+     .infot{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+     .infod{
+        font-size: 35px;
+        margin-top: 60px;
+    }
+     .ip1{
+        display: flex;
+        gap: 10px;
+        margin-top: 60px;
+    }
+     .ip2{
+        display: flex;
+        gap: 10px;
+        margin-top: 30px;
+    }
+     .inst1{
+        font-size: 35px;
+        margin-top: 27px;
+    }
+     .watchesf{
+        height: 100px;
+        width: 100px;
+    }
+     .nlt{
+        font-size: 35px;
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+     .en{
+        display: block;
+        height: 38px;
+        width: 255px;
+        
+    }
+     .subs{
+        height: 28px;
+        width: 122px;
+       
+        margin-top: 35px;
+        background-color: #8019c8;
+        border: none;
+        color: #f6f6f6;
+    }
+     .social1{
+        display: flex;
+        margin-top: 35px;
+        margin-left: 130px;
+    }
+     #yt{
+        font-size: 35px;
+        margin-left: 10px ;
+    }
+     #in{
+        font-size: 35px;
+        margin-left: 10px ;
+    }
+     #twit{
+        font-size: 35px;
+        margin-left: 10px ;
+    }
+     #fb{
+        font-size: 35px;
+    }
+     footer{
+        background-color: #0f1521;
+        color: #fff;
+    }
+     .newsform{
+        margin-top: 55px;
+        margin-left: 130px;
+    }
+     .location{
+        margin-top: 10px;
+    }
+     .fc{
+        margin-left:20px;
+        padding: 100px;
+    }
+     .rights{
+        text-align: center;
+    }
+     .rights1{
+        font-size: 30px;
+    }
+    /* footer css ends */
+}
